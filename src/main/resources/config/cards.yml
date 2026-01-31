@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to cards related local APIs "
+  contactDetails:
+    name: "Mudit Khanna - Product Owner"
+    email: "m@cards-local.com"
+  onCallSupport:
+    - (617) 432-2356
+    - (936) 564-8721

@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to loans related local APIs "
+  contactDetails:
+    name: "Mudit Khanna - Product Owner"
+    email: "m@loans-local.com"
+  onCallSupport:
+    - (723) 656-8709
+    - (156) 342-0956
