@@ -3,13 +3,17 @@ spring:
     name: "config-server"
 
   profiles:
-    active: native
+    active: git
 
   cloud:
     config:
       server:
-        native:
-          search-locations: "classpath:config"
+        git:
+          uri: "https://github.com/muditkhanna98/config.git"
+          default-label: "main"
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
 
 server:
   port: 8071
